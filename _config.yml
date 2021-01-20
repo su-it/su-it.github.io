@@ -140,7 +140,19 @@ footer:
       icon: "fab fa-fw fa-instagram"
       # url:
 
-
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: true
+      share: false
+      related: true
+      
 # Reading Files
 include:
   - .htaccess
